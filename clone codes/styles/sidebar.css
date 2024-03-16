@@ -1,0 +1,39 @@
+.sidebar{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  background-color: white;
+  width: 72px;
+  z-index: 200;
+  padding-top: 19px;
+    
+    
+     
+}
+ .home-icon
+ {
+   
+  height: 45px;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: 10px;
+  
+  padding:5px 20px;
+  white-space: nowrap;
+  transition: 0.3;
+ }
+ .home-icon:hover{
+  background-color: rgb(205, 205, 205);
+ }
+ .home-icon div{
+  font-size: 10px;
+  margin-top: 10px;
+ }
+ 
+ 
